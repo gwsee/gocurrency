@@ -1,4 +1,4 @@
-package gowhere
+package gocurrency
 
 import (
 	"testing"

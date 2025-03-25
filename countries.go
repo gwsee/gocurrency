@@ -1,4 +1,4 @@
-package gowhere
+package gocurrency
 
 // Countries holds the raw data
 var Countries = []Country{
@@ -8,6 +8,7 @@ var Countries = []Country{
 		CurrencySymbol: "؋",
 		Phone:          "+93",
 		Name:           "Afghanistan",
+		NameZh:         "阿富汗",
 	},
 	{
 		Code:           "AL",
@@ -15,6 +16,7 @@ var Countries = []Country{
 		CurrencySymbol: "L",
 		Phone:          "+355",
 		Name:           "Albania",
+		NameZh:         "阿尔巴尼亚",
 	},
 	{
 		Code:           "DZ",
@@ -22,6 +24,7 @@ var Countries = []Country{
 		CurrencySymbol: "دج",
 		Phone:          "+213",
 		Name:           "Algeria",
+		NameZh:         "阿尔及利亚",
 	},
 	{
 		Code:           "AS",
@@ -29,6 +32,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+1684",
 		Name:           "American Samoa",
+		NameZh:         "美属萨摩亚",
 	},
 	{
 		Code:           "AD",
@@ -36,6 +40,7 @@ var Countries = []Country{
 		CurrencySymbol: "€",
 		Phone:          "+376",
 		Name:           "Andorra",
+		NameZh:         "安道尔",
 	},
 	{
 		Code:           "AO",
@@ -43,6 +48,7 @@ var Countries = []Country{
 		CurrencySymbol: "Kz",
 		Phone:          "+244",
 		Name:           "Angola",
+		NameZh:         "安哥拉",
 	},
 	{
 		Code:           "AI",
@@ -50,6 +56,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+1264",
 		Name:           "Anguilla",
+		NameZh:         "安圭拉",
 	},
 	{
 		Code:           "AQ",
@@ -57,6 +64,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+672",
 		Name:           "Antarctica",
+		NameZh:         "南极洲",
 	},
 	{
 		Code:           "AG",
@@ -64,6 +72,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+1268",
 		Name:           "Antigua and Barbuda",
+		NameZh:         "安提瓜和巴布达",
 	},
 	{
 		Code:           "AR",
@@ -71,6 +80,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+54",
 		Name:           "Argentina",
+		NameZh:         "阿根廷",
 	},
 	{
 		Code:           "AM",
@@ -78,6 +88,7 @@ var Countries = []Country{
 		CurrencySymbol: "֏",
 		Phone:          "+374",
 		Name:           "Armenia",
+		NameZh:         "亚美尼亚",
 	},
 	{
 		Code:           "AW",
@@ -85,6 +96,7 @@ var Countries = []Country{
 		CurrencySymbol: "ƒ",
 		Phone:          "+297",
 		Name:           "Aruba",
+		NameZh:         "阿鲁巴",
 	},
 	{
 		Code:           "AU",
@@ -92,6 +104,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+61",
 		Name:           "Australia",
+		NameZh:         "澳大利亚",
 	},
 	{
 		Code:           "AT",
@@ -99,6 +112,7 @@ var Countries = []Country{
 		CurrencySymbol: "€",
 		Phone:          "+43",
 		Name:           "Austria",
+		NameZh:         "奥地利",
 	},
 	{
 		Code:           "AZ",
@@ -106,6 +120,7 @@ var Countries = []Country{
 		CurrencySymbol: "₼",
 		Phone:          "+994",
 		Name:           "Azerbaijan",
+		NameZh:         "阿塞拜疆",
 	},
 	{
 		Code:           "BH",
@@ -113,6 +128,7 @@ var Countries = []Country{
 		CurrencySymbol: ".د.ب",
 		Phone:          "+973",
 		Name:           "Bahrain",
+		NameZh:         "巴林",
 	},
 	{
 		Code:           "BS",
@@ -120,6 +136,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+1242",
 		Name:           "The Bahamas",
+		NameZh:         "巴哈马",
 	},
 	{
 		Code:           "BD",
@@ -127,6 +144,7 @@ var Countries = []Country{
 		CurrencySymbol: "৳",
 		Phone:          "+880",
 		Name:           "Bangladesh",
+		NameZh:         "孟加拉国",
 	},
 	{
 		Code:           "BB",
@@ -134,6 +152,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+1 246",
 		Name:           "Barbados",
+		NameZh:         "巴巴多斯",
 	},
 	{
 		Code:           "BY",
@@ -141,6 +160,7 @@ var Countries = []Country{
 		CurrencySymbol: "Br",
 		Phone:          "+375",
 		Name:           "Belarus",
+		NameZh:         "白俄罗斯",
 	},
 	{
 		Code:           "BE",
@@ -148,6 +168,7 @@ var Countries = []Country{
 		CurrencySymbol: "€",
 		Phone:          "+32",
 		Name:           "Belgium",
+		NameZh:         "比利时",
 	},
 	{
 		Code:           "BZ",
@@ -155,6 +176,7 @@ var Countries = []Country{
 		CurrencySymbol: "BZ$",
 		Phone:          "+501",
 		Name:           "Belize",
+		NameZh:         "伯利兹",
 	},
 	{
 		Code:           "BJ",
@@ -162,6 +184,7 @@ var Countries = []Country{
 		CurrencySymbol: "CFA",
 		Phone:          "+229",
 		Name:           "Benin",
+		NameZh:         "贝宁",
 	},
 	{
 		Code:           "BM",
@@ -169,6 +192,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+1441",
 		Name:           "Bermuda",
+		NameZh:         "百慕大",
 	},
 	{
 		Code:           "BT",
@@ -176,6 +200,7 @@ var Countries = []Country{
 		CurrencySymbol: "Nu.",
 		Phone:          "+975",
 		Name:           "Bhutan",
+		NameZh:         "不丹",
 	},
 	{
 		Code:           "BO",
@@ -183,6 +208,7 @@ var Countries = []Country{
 		CurrencySymbol: "$b",
 		Phone:          "+591",
 		Name:           "Bolivia",
+		NameZh:         "玻利维亚",
 	},
 	{
 		Code:           "BQ",
@@ -190,6 +216,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+599",
 		Name:           "Bonaire",
+		NameZh:         "博内尔",
 	},
 	{
 		Code:           "BA",
@@ -197,6 +224,7 @@ var Countries = []Country{
 		CurrencySymbol: "KM",
 		Phone:          "+387",
 		Name:           "Bosnia and Herzegovina",
+		NameZh:         "波斯尼亚和黑塞哥维那",
 	},
 	{
 		Code:           "BW",
@@ -204,6 +232,7 @@ var Countries = []Country{
 		CurrencySymbol: "P",
 		Phone:          "+267",
 		Name:           "Botswana",
+		NameZh:         "博茨瓦纳",
 	},
 	{
 		Code:           "BV",
@@ -211,6 +240,7 @@ var Countries = []Country{
 		CurrencySymbol: "kr",
 		Phone:          "+47",
 		Name:           "Bouvet",
+		NameZh:         "布韦岛",
 	},
 	{
 		Code:           "BR",
@@ -218,6 +248,7 @@ var Countries = []Country{
 		CurrencySymbol: "R$",
 		Phone:          "+55",
 		Name:           "Brazil",
+		NameZh:         "巴西",
 	},
 	{
 		Code:           "IO",
@@ -225,6 +256,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+246",
 		Name:           "British Indian Ocean Territory",
+		NameZh:         "英属印度洋领地",
 	},
 	{
 		Code:           "VG",
@@ -232,6 +264,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+1284",
 		Name:           "British Virgin Islands",
+		NameZh:         "英属维尔京群岛",
 	},
 	{
 		Code:           "BN",
@@ -239,6 +272,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+673",
 		Name:           "Brunei",
+		NameZh:         "文莱",
 	},
 	{
 		Code:           "BG",
@@ -246,6 +280,7 @@ var Countries = []Country{
 		CurrencySymbol: "лв",
 		Phone:          "+359",
 		Name:           "Bulgaria",
+		NameZh:         "保加利亚",
 	},
 	{
 		Code:           "BF",
@@ -253,6 +288,7 @@ var Countries = []Country{
 		CurrencySymbol: "CFA",
 		Phone:          "+226",
 		Name:           "Burkina Faso",
+		NameZh:         "布基纳法索",
 	},
 	{
 		Code:           "MM",
@@ -260,6 +296,7 @@ var Countries = []Country{
 		CurrencySymbol: "K",
 		Phone:          "+95",
 		Name:           "Myanmar",
+		NameZh:         "缅甸",
 	},
 	{
 		Code:           "BI",
@@ -267,6 +304,7 @@ var Countries = []Country{
 		CurrencySymbol: "FBu",
 		Phone:          "+257",
 		Name:           "Burundi",
+		NameZh:         "布隆迪",
 	},
 	{
 		Code:           "KH",
@@ -274,6 +312,7 @@ var Countries = []Country{
 		CurrencySymbol: "៛",
 		Phone:          "+855",
 		Name:           "Cambodia",
+		NameZh:         "柬埔寨",
 	},
 	{
 		Code:           "CM",
@@ -281,6 +320,7 @@ var Countries = []Country{
 		CurrencySymbol: "FCFA",
 		Phone:          "+237",
 		Name:           "Cameroon",
+		NameZh:         "喀麦隆",
 	},
 	{
 		Code:           "CA",
@@ -288,6 +328,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+1",
 		Name:           "Canada",
+		NameZh:         "加拿大",
 	},
 	{
 		Code:           "CV",
@@ -295,6 +336,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+238",
 		Name:           "Cape Verde",
+		NameZh:         "佛得角",
 	},
 	{
 		Code:           "KY",
@@ -302,6 +344,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+1345",
 		Name:           "Cayman Islands",
+		NameZh:         "开曼群岛",
 	},
 	{
 		Code:           "CF",
@@ -309,6 +352,7 @@ var Countries = []Country{
 		CurrencySymbol: "FCFA",
 		Phone:          "+236",
 		Name:           "Central African Republic",
+		NameZh:         "中非共和国",
 	},
 	{
 		Code:           "TD",
@@ -316,6 +360,7 @@ var Countries = []Country{
 		CurrencySymbol: "FCFA",
 		Phone:          "+235",
 		Name:           "Chad",
+		NameZh:         "乍得",
 	},
 	{
 		Code:           "CL",
@@ -323,6 +368,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+56",
 		Name:           "Chile",
+		NameZh:         "智利",
 	},
 	{
 		Code:           "CN",
@@ -330,6 +376,7 @@ var Countries = []Country{
 		CurrencySymbol: "¥",
 		Phone:          "+86",
 		Name:           "China",
+		NameZh:         "中国",
 	},
 	{
 		Code:           "CX",
@@ -337,6 +384,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+61",
 		Name:           "Christmas Island",
+		NameZh:         "圣诞岛",
 	},
 	{
 		Code:           "CC",
@@ -344,6 +392,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+672",
 		Name:           "Cocos-Keeling Islands",
+		NameZh:         "科科斯（基林）群岛",
 	},
 	{
 		Code:           "CO",
@@ -351,6 +400,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+57",
 		Name:           "Colombia",
+		NameZh:         "哥伦比亚",
 	},
 	{
 		Code:           "KM",
@@ -358,6 +408,7 @@ var Countries = []Country{
 		CurrencySymbol: "CF",
 		Phone:          "+269",
 		Name:           "Comoros",
+		NameZh:         "科摩罗",
 	},
 	{
 		Code:           "CG",
@@ -365,6 +416,7 @@ var Countries = []Country{
 		CurrencySymbol: "FCFA",
 		Phone:          "+242",
 		Name:           "Congo",
+		NameZh:         "刚果共和国",
 	},
 	{
 		Code:           "CD",
@@ -372,6 +424,7 @@ var Countries = []Country{
 		CurrencySymbol: "FC",
 		Phone:          "+243",
 		Name:           "Congo, Dem. Rep. of (Zaire)",
+		NameZh:         "刚果民主共和国（扎伊尔）",
 	},
 	{
 		Code:           "CK",
@@ -379,6 +432,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+682",
 		Name:           "Cook Islands",
+		NameZh:         "库克群岛",
 	},
 	{
 		Code:           "CR",
@@ -386,6 +440,7 @@ var Countries = []Country{
 		CurrencySymbol: "₡",
 		Phone:          "+506",
 		Name:           "Costa Rica",
+		NameZh:         "哥斯达黎加",
 	},
 	{
 		Code:           "CI",
@@ -393,6 +448,7 @@ var Countries = []Country{
 		CurrencySymbol: "CFA",
 		Phone:          "+225",
 		Name:           "Cote d'Ivoire",
+		NameZh:         "科特迪瓦",
 	},
 	{
 		Code:           "HR",
@@ -400,6 +456,7 @@ var Countries = []Country{
 		CurrencySymbol: "kn",
 		Phone:          "+385",
 		Name:           "Croatia",
+		NameZh:         "克罗地亚",
 	},
 	{
 		Code:           "CW",
@@ -407,6 +464,7 @@ var Countries = []Country{
 		CurrencySymbol: "ƒ",
 		Phone:          "+599",
 		Name:           "Curacao",
+		NameZh:         "库拉索",
 	},
 	{
 		Code:           "CU",
@@ -414,6 +472,7 @@ var Countries = []Country{
 		CurrencySymbol: "₱",
 		Phone:          "+53",
 		Name:           "Cuba",
+		NameZh:         "古巴",
 	},
 	{
 		Code:           "CY",
@@ -421,6 +480,7 @@ var Countries = []Country{
 		CurrencySymbol: "€",
 		Phone:          "+357",
 		Name:           "Cyprus",
+		NameZh:         "塞浦路斯",
 	},
 	{
 		Code:           "CZ",
@@ -428,6 +488,7 @@ var Countries = []Country{
 		CurrencySymbol: "Kč",
 		Phone:          "+420",
 		Name:           "Czech Republic",
+		NameZh:         "捷克共和国",
 	},
 	{
 		Code:           "DK",
@@ -435,6 +496,7 @@ var Countries = []Country{
 		CurrencySymbol: "kr",
 		Phone:          "+45",
 		Name:           "Denmark",
+		NameZh:         "丹麦",
 	},
 	{
 		Code:           "DJ",
@@ -442,6 +504,7 @@ var Countries = []Country{
 		CurrencySymbol: "Fdj",
 		Phone:          "+253",
 		Name:           "Djibouti",
+		NameZh:         "吉布提",
 	},
 	{
 		Code:           "DM",
@@ -449,6 +512,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+1767",
 		Name:           "Dominica",
+		NameZh:         "多米尼克",
 	},
 	{
 		Code:           "DO",
@@ -456,6 +520,7 @@ var Countries = []Country{
 		CurrencySymbol: "RD$",
 		Phone:          "+1809",
 		Name:           "Dominican Republic",
+		NameZh:         "多米尼加共和国",
 	},
 	{
 		Code:           "TL",
@@ -463,6 +528,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+670",
 		Name:           "East Timor",
+		NameZh:         "东帝汶",
 	},
 	{
 		Code:           "EC",
@@ -470,6 +536,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+593",
 		Name:           "Ecuador",
+		NameZh:         "厄瓜多尔",
 	},
 	{
 		Code:           "EG",
@@ -477,6 +544,7 @@ var Countries = []Country{
 		CurrencySymbol: "£",
 		Phone:          "+20",
 		Name:           "Egypt",
+		NameZh:         "埃及",
 	},
 	{
 		Code:           "SV",
@@ -484,6 +552,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+503",
 		Name:           "El Salvador",
+		NameZh:         "萨尔瓦多",
 	},
 	{
 		Code:           "GQ",
@@ -491,6 +560,7 @@ var Countries = []Country{
 		CurrencySymbol: "FCFA",
 		Phone:          "+240",
 		Name:           "Equatorial Guinea",
+		NameZh:         "赤道几内亚",
 	},
 	{
 		Code:           "ER",
@@ -498,6 +568,7 @@ var Countries = []Country{
 		CurrencySymbol: "Nfk",
 		Phone:          "+291",
 		Name:           "Eritrea",
+		NameZh:         "厄立特里亚",
 	},
 	{
 		Code:           "EE",
@@ -505,6 +576,7 @@ var Countries = []Country{
 		CurrencySymbol: "€",
 		Phone:          "+372",
 		Name:           "Estonia",
+		NameZh:         "爱沙尼亚",
 	},
 	{
 		Code:           "ET",
@@ -512,6 +584,7 @@ var Countries = []Country{
 		CurrencySymbol: "Br",
 		Phone:          "+251",
 		Name:           "Ethiopia",
+		NameZh:         "埃塞俄比亚",
 	},
 	{
 		Code:           "FK",
@@ -519,6 +592,7 @@ var Countries = []Country{
 		CurrencySymbol: "£",
 		Phone:          "+500",
 		Name:           "Falkland Islands",
+		NameZh:         "福克兰群岛",
 	},
 	{
 		Code:           "FO",
@@ -526,6 +600,7 @@ var Countries = []Country{
 		CurrencySymbol: "kr",
 		Phone:          "+679",
 		Name:           "Fiji",
+		NameZh:         "斐济",
 	},
 	{
 		Code:           "FI",
@@ -533,6 +608,7 @@ var Countries = []Country{
 		CurrencySymbol: "€",
 		Phone:          "+358",
 		Name:           "Finland",
+		NameZh:         "芬兰",
 	},
 	{
 		Code:           "FR",
@@ -540,6 +616,7 @@ var Countries = []Country{
 		CurrencySymbol: "€",
 		Phone:          "+33",
 		Name:           "France",
+		NameZh:         "法国",
 	},
 	{
 		Code:           "GF",
@@ -547,6 +624,7 @@ var Countries = []Country{
 		CurrencySymbol: "€",
 		Phone:          "+594",
 		Name:           "French Guiana",
+		NameZh:         "法属圭亚那",
 	},
 	{
 		Code:           "PF",
@@ -554,6 +632,7 @@ var Countries = []Country{
 		CurrencySymbol: "₣",
 		Phone:          "+689",
 		Name:           "French Polynesia",
+		NameZh:         "法属波利尼西亚",
 	},
 	{
 		Code:           "TF",
@@ -561,6 +640,7 @@ var Countries = []Country{
 		CurrencySymbol: "€",
 		Phone:          "+262",
 		Name:           "French Southern and Antarctic Lands",
+		NameZh:         "法属南部和南极领地",
 	},
 	{
 		Code:           "GA",
@@ -568,6 +648,7 @@ var Countries = []Country{
 		CurrencySymbol: "FCFA",
 		Phone:          "+241",
 		Name:           "Gabon",
+		NameZh:         "加蓬",
 	},
 	{
 		Code:           "GM",
@@ -575,6 +656,7 @@ var Countries = []Country{
 		CurrencySymbol: "D",
 		Phone:          "+220",
 		Name:           "The Gambia",
+		NameZh:         "冈比亚",
 	},
 	{
 		Code:           "GE",
@@ -582,6 +664,7 @@ var Countries = []Country{
 		CurrencySymbol: "₾",
 		Phone:          "+995",
 		Name:           "Georgia",
+		NameZh:         "格鲁吉亚",
 	},
 	{
 		Code:           "DE",
@@ -589,6 +672,7 @@ var Countries = []Country{
 		CurrencySymbol: "€",
 		Phone:          "+49",
 		Name:           "Germany",
+		NameZh:         "德国",
 	},
 	{
 		Code:           "GH",
@@ -596,6 +680,7 @@ var Countries = []Country{
 		CurrencySymbol: "GH₵",
 		Phone:          "+233",
 		Name:           "Ghana",
+		NameZh:         "加纳",
 	},
 	{
 		Code:           "GR",
@@ -603,6 +688,7 @@ var Countries = []Country{
 		CurrencySymbol: "€",
 		Phone:          "+30",
 		Name:           "Greece",
+		NameZh:         "希腊",
 	},
 	{
 		Code:           "GL",
@@ -610,6 +696,7 @@ var Countries = []Country{
 		CurrencySymbol: "kr",
 		Phone:          "+299",
 		Name:           "Greenland",
+		NameZh:         "格陵兰",
 	},
 	{
 		Code:           "GD",
@@ -617,6 +704,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+1473",
 		Name:           "Grenada",
+		NameZh:         "格林纳达",
 	},
 	{
 		Code:           "GP",
@@ -624,6 +712,7 @@ var Countries = []Country{
 		CurrencySymbol: "€",
 		Phone:          "+590",
 		Name:           "Guadeloupe",
+		NameZh:         "瓜德罗普",
 	},
 	{
 		Code:           "GU",
@@ -631,6 +720,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+1671",
 		Name:           "Guam",
+		NameZh:         "关岛",
 	},
 	{
 		Code:           "GT",
@@ -638,6 +728,7 @@ var Countries = []Country{
 		CurrencySymbol: "Q",
 		Phone:          "+502",
 		Name:           "Guatemala",
+		NameZh:         "危地马拉",
 	},
 	{
 		Code:           "GG",
@@ -645,6 +736,7 @@ var Countries = []Country{
 		CurrencySymbol: "£",
 		Phone:          "+44",
 		Name:           "Guernsey",
+		NameZh:         "根西岛",
 	},
 	{
 		Code:           "GN",
@@ -652,6 +744,7 @@ var Countries = []Country{
 		CurrencySymbol: "FG",
 		Phone:          "+224",
 		Name:           "Guinea",
+		NameZh:         "几内亚",
 	},
 	{
 		Code:           "GW",
@@ -659,6 +752,7 @@ var Countries = []Country{
 		CurrencySymbol: "CFA",
 		Phone:          "+245",
 		Name:           "Guinea-Bissau",
+		NameZh:         "几内亚比绍",
 	},
 	{
 		Code:           "GY",
@@ -666,6 +760,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+592",
 		Name:           "Guyana",
+		NameZh:         "圭亚那",
 	},
 	{
 		Code:           "HT",
@@ -673,6 +768,7 @@ var Countries = []Country{
 		CurrencySymbol: "G",
 		Phone:          "+509",
 		Name:           "Haiti",
+		NameZh:         "海地",
 	},
 	{
 		Code:           "HM",
@@ -680,6 +776,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+0",
 		Name:           "Heard Island and McDonald Islands",
+		NameZh:         "赫德岛和麦克唐纳群岛",
 	},
 	{
 		Code:           "VA",
@@ -687,6 +784,7 @@ var Countries = []Country{
 		CurrencySymbol: "€",
 		Phone:          "+39",
 		Name:           "Holy See (Vatican City)",
+		NameZh:         "梵蒂冈城",
 	},
 	{
 		Code:           "HN",
@@ -694,6 +792,7 @@ var Countries = []Country{
 		CurrencySymbol: "L",
 		Phone:          "+504",
 		Name:           "Honduras",
+		NameZh:         "洪都拉斯",
 	},
 	{
 		Code:           "HK",
@@ -701,6 +800,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+852",
 		Name:           "Hong Kong SAR China",
+		NameZh:         "中国香港特别行政区",
 	},
 	{
 		Code:           "HU",
@@ -708,6 +808,7 @@ var Countries = []Country{
 		CurrencySymbol: "Ft",
 		Phone:          "+36",
 		Name:           "Hungary",
+		NameZh:         "匈牙利",
 	},
 	{
 		Code:           "IS",
@@ -715,6 +816,7 @@ var Countries = []Country{
 		CurrencySymbol: "kr",
 		Phone:          "+354",
 		Name:           "Iceland",
+		NameZh:         "冰岛",
 	},
 	{
 		Code:           "IN",
@@ -722,6 +824,7 @@ var Countries = []Country{
 		CurrencySymbol: "₹",
 		Phone:          "+91",
 		Name:           "India",
+		NameZh:         "印度",
 	},
 	{
 		Code:           "ID",
@@ -729,6 +832,7 @@ var Countries = []Country{
 		CurrencySymbol: "Rp",
 		Phone:          "+62",
 		Name:           "Indonesia",
+		NameZh:         "印度尼西亚",
 	},
 	{
 		Code:           "IR",
@@ -736,6 +840,7 @@ var Countries = []Country{
 		CurrencySymbol: "﷼",
 		Phone:          "+98",
 		Name:           "Iran",
+		NameZh:         "伊朗",
 	},
 	{
 		Code:           "IQ",
@@ -743,6 +848,7 @@ var Countries = []Country{
 		CurrencySymbol: "ع.د",
 		Phone:          "+964",
 		Name:           "Iraq",
+		NameZh:         "伊拉克",
 	},
 	{
 		Code:           "IE",
@@ -750,6 +856,7 @@ var Countries = []Country{
 		CurrencySymbol: "€",
 		Phone:          "+353",
 		Name:           "Ireland",
+		NameZh:         "爱尔兰",
 	},
 	{
 		Code:           "IM",
@@ -757,6 +864,7 @@ var Countries = []Country{
 		CurrencySymbol: "£",
 		Phone:          "+44",
 		Name:           "Isle of Man",
+		NameZh:         "马恩岛",
 	},
 	{
 		Code:           "IL",
@@ -764,6 +872,7 @@ var Countries = []Country{
 		CurrencySymbol: "₪",
 		Phone:          "+972",
 		Name:           "Israel",
+		NameZh:         "以色列",
 	},
 	{
 		Code:           "IT",
@@ -771,6 +880,7 @@ var Countries = []Country{
 		CurrencySymbol: "€",
 		Phone:          "+39",
 		Name:           "Italy",
+		NameZh:         "意大利",
 	},
 	{
 		Code:           "JM",
@@ -778,6 +888,7 @@ var Countries = []Country{
 		CurrencySymbol: "J$",
 		Phone:          "+1876",
 		Name:           "Jamaica",
+		NameZh:         "牙买加",
 	},
 	{
 		Code:           "JP",
@@ -785,6 +896,7 @@ var Countries = []Country{
 		CurrencySymbol: "¥",
 		Phone:          "+81",
 		Name:           "Japan",
+		NameZh:         "日本",
 	},
 	{
 		Code:           "JO",
@@ -792,6 +904,7 @@ var Countries = []Country{
 		CurrencySymbol: "JD",
 		Phone:          "+962",
 		Name:           "Jordan",
+		NameZh:         "约旦",
 	},
 	{
 		Code:           "KZ",
@@ -799,6 +912,7 @@ var Countries = []Country{
 		CurrencySymbol: "лв",
 		Phone:          "+7",
 		Name:           "Kazakhstan",
+		NameZh:         "哈萨克斯坦",
 	},
 	{
 		Code:           "KE",
@@ -806,6 +920,7 @@ var Countries = []Country{
 		CurrencySymbol: "KSh",
 		Phone:          "+254",
 		Name:           "Kenya",
+		NameZh:         "肯尼亚",
 	},
 	{
 		Code:           "KI",
@@ -813,6 +928,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+686",
 		Name:           "Kiribati",
+		NameZh:         "基里巴斯",
 	},
 	{
 		Code:           "KW",
@@ -820,6 +936,7 @@ var Countries = []Country{
 		CurrencySymbol: "KD",
 		Phone:          "+965",
 		Name:           "Kuwait",
+		NameZh:         "科威特",
 	},
 	{
 		Code:           "KG",
@@ -827,6 +944,7 @@ var Countries = []Country{
 		CurrencySymbol: "лв",
 		Phone:          "+996",
 		Name:           "Kyrgyzstan",
+		NameZh:         "吉尔吉斯斯坦",
 	},
 	{
 		Code:           "LA",
@@ -834,6 +952,7 @@ var Countries = []Country{
 		CurrencySymbol: "₭",
 		Phone:          "+856",
 		Name:           "Laos",
+		NameZh:         "老挝",
 	},
 	{
 		Code:           "LV",
@@ -841,6 +960,7 @@ var Countries = []Country{
 		CurrencySymbol: "€",
 		Phone:          "+371",
 		Name:           "Latvia",
+		NameZh:         "拉脱维亚",
 	},
 	{
 		Code:           "LB",
@@ -848,6 +968,7 @@ var Countries = []Country{
 		CurrencySymbol: "£",
 		Phone:          "+961",
 		Name:           "Lebanon",
+		NameZh:         "黎巴嫩",
 	},
 	{
 		Code:           "LS",
@@ -855,6 +976,7 @@ var Countries = []Country{
 		CurrencySymbol: "M",
 		Phone:          "+266",
 		Name:           "Lesotho",
+		NameZh:         "莱索托",
 	},
 	{
 		Code:           "LR",
@@ -862,6 +984,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+231",
 		Name:           "Liberia",
+		NameZh:         "利比里亚",
 	},
 	{
 		Code:           "LY",
@@ -869,6 +992,7 @@ var Countries = []Country{
 		CurrencySymbol: "LD",
 		Phone:          "+218",
 		Name:           "Libya",
+		NameZh:         "利比亚",
 	},
 	{
 		Code:           "LI",
@@ -876,6 +1000,7 @@ var Countries = []Country{
 		CurrencySymbol: "CHF",
 		Phone:          "+423",
 		Name:           "Liechtenstein",
+		NameZh:         "列支敦士登",
 	},
 	{
 		Code:           "LT",
@@ -883,6 +1008,7 @@ var Countries = []Country{
 		CurrencySymbol: "Lt",
 		Phone:          "+370",
 		Name:           "Lithuania",
+		NameZh:         "立陶宛",
 	},
 	{
 		Code:           "LU",
@@ -890,6 +1016,7 @@ var Countries = []Country{
 		CurrencySymbol: "€",
 		Phone:          "+352",
 		Name:           "Luxembourg",
+		NameZh:         "卢森堡",
 	},
 	{
 		Code:           "MO",
@@ -897,6 +1024,7 @@ var Countries = []Country{
 		CurrencySymbol: "MOP$",
 		Phone:          "+853",
 		Name:           "Macau SAR China",
+		NameZh:         "中国澳门特别行政区",
 	},
 	{
 		Code:           "MK",
@@ -904,6 +1032,7 @@ var Countries = []Country{
 		CurrencySymbol: "ден",
 		Phone:          "+389",
 		Name:           "Macedonia",
+		NameZh:         "北马其顿",
 	},
 	{
 		Code:           "MG",
@@ -911,6 +1040,7 @@ var Countries = []Country{
 		CurrencySymbol: "Ar",
 		Phone:          "+261",
 		Name:           "Madagascar",
+		NameZh:         "马达加斯加",
 	},
 	{
 		Code:           "MW",
@@ -918,6 +1048,7 @@ var Countries = []Country{
 		CurrencySymbol: "MK",
 		Phone:          "+265",
 		Name:           "Malawi",
+		NameZh:         "马拉维",
 	},
 	{
 		Code:           "MY",
@@ -925,6 +1056,7 @@ var Countries = []Country{
 		CurrencySymbol: "RM",
 		Phone:          "+60",
 		Name:           "Malaysia",
+		NameZh:         "马来西亚",
 	},
 	{
 		Code:           "MV",
@@ -932,6 +1064,7 @@ var Countries = []Country{
 		CurrencySymbol: "Rf",
 		Phone:          "+960",
 		Name:           "Maldives",
+		NameZh:         "马尔代夫",
 	},
 	{
 		Code:           "ML",
@@ -939,6 +1072,7 @@ var Countries = []Country{
 		CurrencySymbol: "CFA",
 		Phone:          "+223",
 		Name:           "Mali",
+		NameZh:         "马里",
 	},
 	{
 		Code:           "MT",
@@ -946,6 +1080,7 @@ var Countries = []Country{
 		CurrencySymbol: "€",
 		Phone:          "+356",
 		Name:           "Malta",
+		NameZh:         "马耳他",
 	},
 	{
 		Code:           "MH",
@@ -953,6 +1088,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+692",
 		Name:           "Marshall Islands",
+		NameZh:         "马绍尔群岛",
 	},
 	{
 		Code:           "MQ",
@@ -960,6 +1096,7 @@ var Countries = []Country{
 		CurrencySymbol: "€",
 		Phone:          "+596",
 		Name:           "Martinique",
+		NameZh:         "马提尼克",
 	},
 	{
 		Code:           "MR",
@@ -967,6 +1104,7 @@ var Countries = []Country{
 		CurrencySymbol: "UM",
 		Phone:          "+222",
 		Name:           "Mauritania",
+		NameZh:         "毛里塔尼亚",
 	},
 	{
 		Code:           "MU",
@@ -974,6 +1112,7 @@ var Countries = []Country{
 		CurrencySymbol: "₨",
 		Phone:          "+230",
 		Name:           "Mauritius",
+		NameZh:         "毛里求斯",
 	},
 	{
 		Code:           "YT",
@@ -981,6 +1120,7 @@ var Countries = []Country{
 		CurrencySymbol: "€",
 		Phone:          "+262",
 		Name:           "Mayotte",
+		NameZh:         "马约特",
 	},
 	{
 		Code:           "MX",
@@ -988,6 +1128,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+52",
 		Name:           "Mexico",
+		NameZh:         "墨西哥",
 	},
 	{
 		Code:           "FM",
@@ -995,6 +1136,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+691",
 		Name:           "Micronesia, Federated States Of",
+		NameZh:         "密克罗尼西亚联邦",
 	},
 	{
 		Code:           "MI",
@@ -1002,6 +1144,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+1808",
 		Name:           "Midway Island",
+		NameZh:         "中途岛",
 	},
 	{
 		Code:           "MD",
@@ -1009,6 +1152,7 @@ var Countries = []Country{
 		CurrencySymbol: "lei",
 		Phone:          "+373",
 		Name:           "Moldova",
+		NameZh:         "摩尔多瓦",
 	},
 	{
 		Code:           "MC",
@@ -1016,6 +1160,7 @@ var Countries = []Country{
 		CurrencySymbol: "€",
 		Phone:          "+377",
 		Name:           "Monaco",
+		NameZh:         "摩纳哥",
 	},
 	{
 		Code:           "MN",
@@ -1023,6 +1168,7 @@ var Countries = []Country{
 		CurrencySymbol: "₮",
 		Phone:          "+976",
 		Name:           "Mongolia",
+		NameZh:         "蒙古",
 	},
 	{
 		Code:           "ME",
@@ -1030,6 +1176,7 @@ var Countries = []Country{
 		CurrencySymbol: "€",
 		Phone:          "+382",
 		Name:           "Montenegro",
+		NameZh:         "黑山",
 	},
 	{
 		Code:           "MS",
@@ -1037,6 +1184,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+1664",
 		Name:           "Montserrat",
+		NameZh:         "蒙特塞拉特",
 	},
 	{
 		Code:           "MA",
@@ -1044,6 +1192,7 @@ var Countries = []Country{
 		CurrencySymbol: "MAD",
 		Phone:          "+212",
 		Name:           "Morocco",
+		NameZh:         "摩洛哥",
 	},
 	{
 		Code:           "MZ",
@@ -1051,6 +1200,7 @@ var Countries = []Country{
 		CurrencySymbol: "MT",
 		Phone:          "+258",
 		Name:           "Mozambique",
+		NameZh:         "莫桑比克",
 	},
 	{
 		Code:           "NA",
@@ -1058,6 +1208,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+264",
 		Name:           "Namibia",
+		NameZh:         "纳米比亚",
 	},
 	{
 		Code:           "NR",
@@ -1065,6 +1216,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+674",
 		Name:           "Nauru",
+		NameZh:         "瑙鲁",
 	},
 	{
 		Code:           "NP",
@@ -1072,6 +1224,7 @@ var Countries = []Country{
 		CurrencySymbol: "₨",
 		Phone:          "+977",
 		Name:           "Nepal",
+		NameZh:         "尼泊尔",
 	},
 	{
 		Code:           "NL",
@@ -1079,6 +1232,7 @@ var Countries = []Country{
 		CurrencySymbol: "€",
 		Phone:          "+31",
 		Name:           "Netherlands",
+		NameZh:         "荷兰",
 	},
 	{
 		Code:           "AN",
@@ -1086,6 +1240,7 @@ var Countries = []Country{
 		CurrencySymbol: "€",
 		Phone:          "+599",
 		Name:           "Netherlands Antilles",
+		NameZh:         "荷属安的列斯",
 	},
 	{
 		Code:           "NC",
@@ -1093,6 +1248,7 @@ var Countries = []Country{
 		CurrencySymbol: "₣",
 		Phone:          "+687",
 		Name:           "New Caledonia",
+		NameZh:         "新喀里多尼亚",
 	},
 	{
 		Code:           "NZ",
@@ -1100,6 +1256,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+64",
 		Name:           "New Zealand",
+		NameZh:         "新西兰",
 	},
 	{
 		Code:           "NI",
@@ -1107,6 +1264,7 @@ var Countries = []Country{
 		CurrencySymbol: "C$",
 		Phone:          "+505",
 		Name:           "Nicaragua",
+		NameZh:         "尼加拉瓜",
 	},
 	{
 		Code:           "NE",
@@ -1114,6 +1272,7 @@ var Countries = []Country{
 		CurrencySymbol: "CFA",
 		Phone:          "+227",
 		Name:           "Niger",
+		NameZh:         "尼日尔",
 	},
 	{
 		Code:           "NG",
@@ -1121,6 +1280,7 @@ var Countries = []Country{
 		CurrencySymbol: "₦",
 		Phone:          "+234",
 		Name:           "Nigeria",
+		NameZh:         "尼日利亚",
 	},
 	{
 		Code:           "NU",
@@ -1128,6 +1288,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+683",
 		Name:           "Niue",
+		NameZh:         "纽埃",
 	},
 	{
 		Code:           "NF",
@@ -1135,6 +1296,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+672",
 		Name:           "Norfolk Island",
+		NameZh:         "诺福克岛",
 	},
 	{
 		Code:           "KP",
@@ -1142,6 +1304,7 @@ var Countries = []Country{
 		CurrencySymbol: "₩",
 		Phone:          "+850",
 		Name:           "North Korea",
+		NameZh:         "朝鲜",
 	},
 	{
 		Code:           "MP",
@@ -1149,6 +1312,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+1670",
 		Name:           "Northern Mariana Islands",
+		NameZh:         "北马里亚纳群岛",
 	},
 	{
 		Code:           "NO",
@@ -1156,6 +1320,7 @@ var Countries = []Country{
 		CurrencySymbol: "kr",
 		Phone:          "+47",
 		Name:           "Norway",
+		NameZh:         "挪威",
 	},
 	{
 		Code:           "OM",
@@ -1163,6 +1328,7 @@ var Countries = []Country{
 		CurrencySymbol: "﷼",
 		Phone:          "+968",
 		Name:           "Oman",
+		NameZh:         "阿曼",
 	},
 	{
 		Code:           "PK",
@@ -1170,6 +1336,7 @@ var Countries = []Country{
 		CurrencySymbol: "₨",
 		Phone:          "+92",
 		Name:           "Pakistan",
+		NameZh:         "巴基斯坦",
 	},
 	{
 		Code:           "PW",
@@ -1177,6 +1344,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+680",
 		Name:           "Palau",
+		NameZh:         "帕劳",
 	},
 	{
 		Code:           "PA",
@@ -1184,6 +1352,7 @@ var Countries = []Country{
 		CurrencySymbol: "B/.",
 		Phone:          "+507",
 		Name:           "Panama",
+		NameZh:         "巴拿马",
 	},
 	{
 		Code:           "PG",
@@ -1191,6 +1360,7 @@ var Countries = []Country{
 		CurrencySymbol: "K",
 		Phone:          "+675",
 		Name:           "Papua New Guinea",
+		NameZh:         "巴布亚新几内亚",
 	},
 	{
 		Code:           "PY",
@@ -1198,6 +1368,7 @@ var Countries = []Country{
 		CurrencySymbol: "Gs",
 		Phone:          "+595",
 		Name:           "Paraguay",
+		NameZh:         "巴拉圭",
 	},
 	{
 		Code:           "PE",
@@ -1205,6 +1376,7 @@ var Countries = []Country{
 		CurrencySymbol: "S/.",
 		Phone:          "+51",
 		Name:           "Peru",
+		NameZh:         "秘鲁",
 	},
 	{
 		Code:           "PH",
@@ -1212,6 +1384,7 @@ var Countries = []Country{
 		CurrencySymbol: "₱",
 		Phone:          "+63",
 		Name:           "Philippines",
+		NameZh:         "菲律宾",
 	},
 	{
 		Code:           "PN",
@@ -1219,6 +1392,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+870",
 		Name:           "Pitcairn Islands",
+		NameZh:         "皮特凯恩群岛",
 	},
 	{
 		Code:           "PL",
@@ -1226,6 +1400,7 @@ var Countries = []Country{
 		CurrencySymbol: "zł",
 		Phone:          "+48",
 		Name:           "Poland",
+		NameZh:         "波兰",
 	},
 	{
 		Code:           "PT",
@@ -1233,6 +1408,7 @@ var Countries = []Country{
 		CurrencySymbol: "€",
 		Phone:          "+351",
 		Name:           "Portugal",
+		NameZh:         "葡萄牙",
 	},
 	{
 		Code:           "PR",
@@ -1240,6 +1416,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+1787",
 		Name:           "Puerto Rico",
+		NameZh:         "波多黎各",
 	},
 	{
 		Code:           "QA",
@@ -1247,6 +1424,7 @@ var Countries = []Country{
 		CurrencySymbol: "﷼",
 		Phone:          "+974",
 		Name:           "Qatar",
+		NameZh:         "卡塔尔",
 	},
 	{
 		Code:           "RE",
@@ -1254,6 +1432,7 @@ var Countries = []Country{
 		CurrencySymbol: "€",
 		Phone:          "+262",
 		Name:           "Reunion",
+		NameZh:         "留尼汪",
 	},
 	{
 		Code:           "RO",
@@ -1261,6 +1440,7 @@ var Countries = []Country{
 		CurrencySymbol: "lei",
 		Phone:          "+40",
 		Name:           "Romania",
+		NameZh:         "罗马尼亚",
 	},
 	{
 		Code:           "RU",
@@ -1268,6 +1448,7 @@ var Countries = []Country{
 		CurrencySymbol: "₽",
 		Phone:          "+7",
 		Name:           "Russia",
+		NameZh:         "俄罗斯",
 	},
 	{
 		Code:           "RW",
@@ -1275,6 +1456,7 @@ var Countries = []Country{
 		CurrencySymbol: "R₣",
 		Phone:          "+250",
 		Name:           "Rwanda",
+		NameZh:         "卢旺达",
 	},
 	{
 		Code:           "BL",
@@ -1282,6 +1464,7 @@ var Countries = []Country{
 		CurrencySymbol: "€",
 		Phone:          "+590",
 		Name:           "Saint Barthelemy",
+		NameZh:         "圣巴泰勒米",
 	},
 	{
 		Code:           "SH",
@@ -1289,6 +1472,7 @@ var Countries = []Country{
 		CurrencySymbol: "£",
 		Phone:          "+290",
 		Name:           "Saint Helena",
+		NameZh:         "圣赫勒拿",
 	},
 	{
 		Code:           "KN",
@@ -1296,6 +1480,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+1869",
 		Name:           "Saint Kitts and Nevis",
+		NameZh:         "圣基茨和尼维斯",
 	},
 	{
 		Code:           "LC",
@@ -1303,6 +1488,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+1758",
 		Name:           "Saint Lucia",
+		NameZh:         "圣卢西亚",
 	},
 	{
 		Code:           "MF",
@@ -1310,6 +1496,7 @@ var Countries = []Country{
 		CurrencySymbol: "€",
 		Phone:          "+1",
 		Name:           "Saint Martin",
+		NameZh:         "圣马丁",
 	},
 	{
 		Code:           "PM",
@@ -1317,6 +1504,7 @@ var Countries = []Country{
 		CurrencySymbol: "€",
 		Phone:          "+508",
 		Name:           "Saint Pierre and Miquelon",
+		NameZh:         "圣皮埃尔和密克隆",
 	},
 	{
 		Code:           "ST",
@@ -1324,6 +1512,7 @@ var Countries = []Country{
 		CurrencySymbol: "Db",
 		Phone:          "+239",
 		Name:           "Saint tome and principle",
+		NameZh:         "圣多美和普林西比",
 	},
 	{
 		Code:           "VC",
@@ -1331,6 +1520,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+1784",
 		Name:           "Saint Vincent and the Grenadines",
+		NameZh:         "圣文森特和格林纳丁斯",
 	},
 	{
 		Code:           "WS",
@@ -1338,6 +1528,7 @@ var Countries = []Country{
 		CurrencySymbol: "WS$",
 		Phone:          "+684",
 		Name:           "Samoa",
+		NameZh:         "萨摩亚",
 	},
 	{
 		Code:           "SM",
@@ -1345,6 +1536,7 @@ var Countries = []Country{
 		CurrencySymbol: "€",
 		Phone:          "+378",
 		Name:           "San Marino",
+		NameZh:         "圣马力诺",
 	},
 	{
 		Code:           "SA",
@@ -1352,6 +1544,7 @@ var Countries = []Country{
 		CurrencySymbol: "﷼",
 		Phone:          "+966",
 		Name:           "Saudi Arabia",
+		NameZh:         "沙特阿拉伯",
 	},
 	{
 		Code:           "SN",
@@ -1359,6 +1552,7 @@ var Countries = []Country{
 		CurrencySymbol: "CFA",
 		Phone:          "+221",
 		Name:           "Senegal",
+		NameZh:         "塞内加尔",
 	},
 	{
 		Code:           "RS",
@@ -1366,6 +1560,7 @@ var Countries = []Country{
 		CurrencySymbol: "Дин.",
 		Phone:          "+381",
 		Name:           "Serbia",
+		NameZh:         "塞尔维亚",
 	},
 	{
 		Code:           "SC",
@@ -1373,6 +1568,7 @@ var Countries = []Country{
 		CurrencySymbol: "₨",
 		Phone:          "+248",
 		Name:           "Seychelles",
+		NameZh:         "塞舌尔",
 	},
 	{
 		Code:           "SL",
@@ -1380,6 +1576,7 @@ var Countries = []Country{
 		CurrencySymbol: "Le",
 		Phone:          "+232",
 		Name:           "Sierra Leone",
+		NameZh:         "塞拉利昂",
 	},
 	{
 		Code:           "SG",
@@ -1387,6 +1584,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+65",
 		Name:           "Singapore",
+		NameZh:         "新加坡",
 	},
 	{
 		Code:           "SX",
@@ -1394,6 +1592,7 @@ var Countries = []Country{
 		CurrencySymbol: "ƒ",
 		Phone:          "+721",
 		Name:           "Sint Maarten",
+		NameZh:         "荷属圣马丁",
 	},
 	{
 		Code:           "SK",
@@ -1401,6 +1600,7 @@ var Countries = []Country{
 		CurrencySymbol: "€",
 		Phone:          "+421",
 		Name:           "Slovakia",
+		NameZh:         "斯洛伐克",
 	},
 	{
 		Code:           "SI",
@@ -1408,6 +1608,7 @@ var Countries = []Country{
 		CurrencySymbol: "€",
 		Phone:          "+386",
 		Name:           "Slovenia",
+		NameZh:         "斯洛文尼亚",
 	},
 	{
 		Code:           "SB",
@@ -1415,6 +1616,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+677",
 		Name:           "Solomon Islands",
+		NameZh:         "所罗门群岛",
 	},
 	{
 		Code:           "ZA",
@@ -1422,6 +1624,7 @@ var Countries = []Country{
 		CurrencySymbol: "R",
 		Phone:          "+27",
 		Name:           "South Africa",
+		NameZh:         "南非",
 	},
 	{
 		Code:           "GS",
@@ -1429,6 +1632,7 @@ var Countries = []Country{
 		CurrencySymbol: "£",
 		Phone:          "+500",
 		Name:           "South Georgia and the South Sandwich Islands",
+		NameZh:         "南乔治亚和南桑威奇群岛",
 	},
 	{
 		Code:           "KR",
@@ -1436,6 +1640,7 @@ var Countries = []Country{
 		CurrencySymbol: "₩",
 		Phone:          "+82",
 		Name:           "South Korea",
+		NameZh:         "韩国",
 	},
 	{
 		Code:           "SS",
@@ -1443,6 +1648,7 @@ var Countries = []Country{
 		CurrencySymbol: "£",
 		Phone:          "+211",
 		Name:           "South Sudan",
+		NameZh:         "南苏丹",
 	},
 	{
 		Code:           "ES",
@@ -1450,6 +1656,7 @@ var Countries = []Country{
 		CurrencySymbol: "€",
 		Phone:          "+34",
 		Name:           "Spain",
+		NameZh:         "西班牙",
 	},
 	{
 		Code:           "LK",
@@ -1457,6 +1664,7 @@ var Countries = []Country{
 		CurrencySymbol: "₨",
 		Phone:          "+94",
 		Name:           "Sri Lanka",
+		NameZh:         "斯里兰卡",
 	},
 	{
 		Code:           "SD",
@@ -1464,6 +1672,7 @@ var Countries = []Country{
 		CurrencySymbol: "ج.س.",
 		Phone:          "+249",
 		Name:           "Sudan",
+		NameZh:         "苏丹",
 	},
 	{
 		Code:           "SR",
@@ -1471,6 +1680,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+597",
 		Name:           "Suriname",
+		NameZh:         "苏里南",
 	},
 	{
 		Code:           "SJ",
@@ -1478,6 +1688,7 @@ var Countries = []Country{
 		CurrencySymbol: "kr",
 		Phone:          "+47",
 		Name:           "Svalbard",
+		NameZh:         "斯瓦尔巴",
 	},
 	{
 		Code:           "SZ",
@@ -1485,6 +1696,7 @@ var Countries = []Country{
 		CurrencySymbol: "E",
 		Phone:          "+268",
 		Name:           "Swaziland",
+		NameZh:         "斯威士兰",
 	},
 	{
 		Code:           "SE",
@@ -1492,6 +1704,7 @@ var Countries = []Country{
 		CurrencySymbol: "kr",
 		Phone:          "+46",
 		Name:           "Sweden",
+		NameZh:         "瑞典",
 	},
 	{
 		Code:           "CH",
@@ -1499,6 +1712,7 @@ var Countries = []Country{
 		CurrencySymbol: "CHF",
 		Phone:          "+41",
 		Name:           "Switzerland",
+		NameZh:         "瑞士",
 	},
 	{
 		Code:           "SY",
@@ -1506,6 +1720,7 @@ var Countries = []Country{
 		CurrencySymbol: "£",
 		Phone:          "+963",
 		Name:           "Syria",
+		NameZh:         "叙利亚",
 	},
 	{
 		Code:           "TW",
@@ -1513,6 +1728,7 @@ var Countries = []Country{
 		CurrencySymbol: "NT$",
 		Phone:          "+886",
 		Name:           "Taiwan",
+		NameZh:         "台湾",
 	},
 	{
 		Code:           "TJ",
@@ -1520,6 +1736,7 @@ var Countries = []Country{
 		CurrencySymbol: "SM",
 		Phone:          "+992",
 		Name:           "Tajikistan",
+		NameZh:         "塔吉克斯坦",
 	},
 	{
 		Code:           "TZ",
@@ -1527,6 +1744,7 @@ var Countries = []Country{
 		CurrencySymbol: "TSh",
 		Phone:          "+255",
 		Name:           "Tanzania",
+		NameZh:         "坦桑尼亚",
 	},
 	{
 		Code:           "TH",
@@ -1534,6 +1752,7 @@ var Countries = []Country{
 		CurrencySymbol: "฿",
 		Phone:          "+66",
 		Name:           "Thailand",
+		NameZh:         "泰国",
 	},
 	{
 		Code:           "TG",
@@ -1541,6 +1760,7 @@ var Countries = []Country{
 		CurrencySymbol: "CFA",
 		Phone:          "+228",
 		Name:           "Togo",
+		NameZh:         "多哥",
 	},
 	{
 		Code:           "TK",
@@ -1548,6 +1768,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+690",
 		Name:           "Tokelau",
+		NameZh:         "托克劳",
 	},
 	{
 		Code:           "TO",
@@ -1555,6 +1776,7 @@ var Countries = []Country{
 		CurrencySymbol: "T$",
 		Phone:          "+676",
 		Name:           "Tonga",
+		NameZh:         "汤加",
 	},
 	{
 		Code:           "TT",
@@ -1562,6 +1784,7 @@ var Countries = []Country{
 		CurrencySymbol: "TT$",
 		Phone:          "+1868",
 		Name:           "Trinidad and Tobago",
+		NameZh:         "特立尼达和多巴哥",
 	},
 	{
 		Code:           "TN",
@@ -1569,6 +1792,7 @@ var Countries = []Country{
 		CurrencySymbol: "د.ت",
 		Phone:          "+216",
 		Name:           "Tunisia",
+		NameZh:         "突尼斯",
 	},
 	{
 		Code:           "TR",
@@ -1576,6 +1800,7 @@ var Countries = []Country{
 		CurrencySymbol: "₺",
 		Phone:          "+90",
 		Name:           "Turkey",
+		NameZh:         "土耳其",
 	},
 	{
 		Code:           "TM",
@@ -1583,6 +1808,7 @@ var Countries = []Country{
 		CurrencySymbol: "T",
 		Phone:          "+7370",
 		Name:           "Turkmenistan",
+		NameZh:         "土库曼斯坦",
 	},
 	{
 		Code:           "TC",
@@ -1590,6 +1816,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+1649",
 		Name:           "Turks and Caicos Islands",
+		NameZh:         "特克斯和凯科斯群岛",
 	},
 	{
 		Code:           "TV",
@@ -1597,6 +1824,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+688",
 		Name:           "Tuvalu",
+		NameZh:         "图瓦卢",
 	},
 	{
 		Code:           "UG",
@@ -1604,6 +1832,7 @@ var Countries = []Country{
 		CurrencySymbol: "USh",
 		Phone:          "+256",
 		Name:           "Uganda",
+		NameZh:         "乌干达",
 	},
 	{
 		Code:           "UA",
@@ -1611,6 +1840,7 @@ var Countries = []Country{
 		CurrencySymbol: "₴",
 		Phone:          "+380",
 		Name:           "Ukraine",
+		NameZh:         "乌克兰",
 	},
 	{
 		Code:           "AE",
@@ -1618,6 +1848,7 @@ var Countries = []Country{
 		CurrencySymbol: "د.إ",
 		Phone:          "+971",
 		Name:           "United Arab Emirates",
+		NameZh:         "阿拉伯联合酋长国",
 	},
 	{
 		Code:           "UK",
@@ -1625,6 +1856,7 @@ var Countries = []Country{
 		CurrencySymbol: "د.إ",
 		Phone:          "+44",
 		Name:           "United Kingdom",
+		NameZh:         "英国",
 	},
 	{
 		Code:           "UM",
@@ -1632,6 +1864,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+1",
 		Name:           "United States Minor Outlying Islands",
+		NameZh:         "美国本土外小岛屿",
 	},
 	{
 		Code:           "US",
@@ -1639,6 +1872,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+1",
 		Name:           "United States",
+		NameZh:         "美国",
 	},
 	{
 		Code:           "UY",
@@ -1646,6 +1880,7 @@ var Countries = []Country{
 		CurrencySymbol: "$U",
 		Phone:          "+598",
 		Name:           "Uruguay",
+		NameZh:         "乌拉圭",
 	},
 	{
 		Code:           "UZ",
@@ -1653,6 +1888,7 @@ var Countries = []Country{
 		CurrencySymbol: "лв",
 		Phone:          "+998",
 		Name:           "Uzbekistan",
+		NameZh:         "乌兹别克斯坦",
 	},
 	{
 		Code:           "VU",
@@ -1660,6 +1896,7 @@ var Countries = []Country{
 		CurrencySymbol: "VT",
 		Phone:          "+678",
 		Name:           "Vanuatu",
+		NameZh:         "瓦努阿图",
 	},
 	{
 		Code:           "VE",
@@ -1667,6 +1904,7 @@ var Countries = []Country{
 		CurrencySymbol: "Bs",
 		Phone:          "+58",
 		Name:           "Venezuela",
+		NameZh:         "委内瑞拉",
 	},
 	{
 		Code:           "VN",
@@ -1674,6 +1912,7 @@ var Countries = []Country{
 		CurrencySymbol: "₫",
 		Phone:          "+84",
 		Name:           "Vietnam",
+		NameZh:         "越南",
 	},
 	{
 		Code:           "VI",
@@ -1681,6 +1920,7 @@ var Countries = []Country{
 		CurrencySymbol: "$",
 		Phone:          "+1340",
 		Name:           "Virgin Islands",
+		NameZh:         "美属维尔京群岛",
 	},
 	{
 		Code:           "WF",
@@ -1688,6 +1928,7 @@ var Countries = []Country{
 		CurrencySymbol: "₣",
 		Phone:          "+681",
 		Name:           "Wallis and Futuna",
+		NameZh:         "瓦利斯和富图纳",
 	},
 	{
 		Code:           "EH",
@@ -1695,6 +1936,7 @@ var Countries = []Country{
 		CurrencySymbol: "MAD",
 		Phone:          "+212",
 		Name:           "Western Sahara",
+		NameZh:         "西撒哈拉",
 	},
 	{
 		Code:           "YE",
@@ -1702,6 +1944,7 @@ var Countries = []Country{
 		CurrencySymbol: "﷼",
 		Phone:          "+967",
 		Name:           "Yemen",
+		NameZh:         "也门",
 	},
 	{
 		Code:           "ZM",
@@ -1709,6 +1952,7 @@ var Countries = []Country{
 		CurrencySymbol: "﷼",
 		Phone:          "+260",
 		Name:           "Zambia",
+		NameZh:         "赞比亚",
 	},
 	{
 		Code:           "ZW",
@@ -1716,5 +1960,6 @@ var Countries = []Country{
 		CurrencySymbol: "﷼",
 		Phone:          "+263",
 		Name:           "Zimbabwe",
+		NameZh:         "津巴布韦",
 	},
 }

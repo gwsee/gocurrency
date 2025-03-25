@@ -1,4 +1,4 @@
-package gowhere
+package gocurrency
 
 import (
 	"fmt"
@@ -12,6 +12,7 @@ type Country struct {
 	CurrencySymbol string // $
 	Name           string // Australia
 	Phone          string // +61
+	NameZh         string // 中文名
 }
 
 // GetCountry returns a country based on the code
